@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="boots/bootstrap.min.css">
+    <link rel="stylesheet" href="Css files/style.css">
+    <link rel="stylesheet" href="Font_6/css/all.min.css">
+    <title>ONLINE_PROJECT</title>
+</head>
+
+<body>
+    <!-- section_header -->
+    <header id="top">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">OPENCLASSROOM</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item dropdown" id="diop">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Training Programs
+                            </a>
+                            <ul class="dropdowner">
+                                <li>
+                                    <h2>Our training programs</h2>
+                                    <p class="small"> Online and at your own pace.</p>
+                                </li>
+                                <li class="hove">
+                                    <h5>Diploma programming programs</h5>
+                                    <p class="small">Acquire in-demand skills with real-world projects and one-to-one
+                                        mentoring.</p>
+                                </li>
+                                <li class="hove">
+                                    <h5>Free access-courses</h5>
+                                    <p class="small">
+                                        burden your knowledge with 500+ regular updated courses.
+                                    </p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-lg-white">For Business</a>
+                        </li>
+                        <li class="nav-item check_div">
+                           <input type="checkbox" id="check">
+                           <label for="check" id="label"></label>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" id="form_input" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Log in</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- section_about/feature -->
+    <section id="proof">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1 class="display-5">Become future-proof</h1>
+                    <p class="my-4 mb-5">
+                        Get the skills of tomorrow, learn to learn efficiently and take control of <br> your career for
+                        good.
+                    </p>
+                    <div class="d-flex">
+                        <a href="#" class="btn btn_apply me-4">start application</a>
+                        <a href="#" class="btn btn_train">Discovering training programs</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="IMG/home_bg.avif" alt="" class="img-fluid img_home">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section_diploma -->
+    <section id="diploma">
+        <div class="container">
+            <div class="row text-center text_diplo gy-3">
+                <div class="col-lg-4">
+                    <img src="IMG/diploma.svg" alt="">
+                    <h4 class="text-white fw-bold">Diploma qualification</h4>
+                    <p class="text-white-50">
+                        Earn a bachelor’s- or master’s-level diploma to unlock your new career
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="IMG/mentorship.svg" alt="">
+                    <h4 class="text-white fw-bold">Mentorship</h4>
+                    <p class="text-white-50">
+                        Benefit from weekly one-to-one sessions with an expert in the target profession
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="IMG/job.svg" alt="">
+                    <h4 class="text-white fw-bold">Hired or refunded</h4>
+                    <p class="text-white-50">
+                        Find a job within 6 months or we guarantee the reimbursement of your tuition*
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section_about -->
+    <section id="about">
+        <div class="container">
+            <div class="row about_content justify-content-center mx-center">
+                <div class="col-lg-6">
+                    <h2>See what we’re about</h2>
+                    <p class="text-black-50">
+                        Become who you want to be with OpenClassrooms. Choose your own <a href="#">career path </a> and
+                        earn a diploma online with hands-on projects and weekly one-on-one mentorship sessions with a
+                        dedicated professional in your field. Gain experience on your CV with OpenClassrooms <a
+                            href="#">apprenticeship programs</a> and earn a salary while you learn.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <iframe src="IMG/video.mp4" frameborder="none" autoplay mute loops id="video"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section_carousel -->
+    <section id="carousel_say" style="padding-top: 5em;">
+        <div class="container">
+            <h4 class="text-center">What our students say</h4>
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" id="slide" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button"  id="slide" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                         <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg"> <img src="IMG/Stephanie.avif" alt=""></div>
+                            <div class="col-lg-8">
+                                <p class="webapp-0-webapp176 pt-4">
+                                    "&nbsp;I think the most important thing when you are learning to program is to have
+                                    people around you who believe in you...that is what was really important with my mentor
+                                    because he knew how to motivate me and believe in me. Because he knew what I was going
+                                    through because he had already been through it himself.&nbsp;"
+                                </p>
+                                <h5 class="fw-bold">
+                                    Stephaine <br> Front-end web developer
+                                </h5>
+                                <button type="button" class="btn btn_watch">Watch her video</button>
+                              </div>
+                            </div>
+                         </div>
+                          </div>
+                          <!-- <div class="carousel-item">
+                            <img src="IMG/Stephanie.avif" alt="">
+                            <img src="IMG/debbie.avif" alt="">
+                            <iframe src="IMG/video.mp4" frameborder="none" autoplay mute loops id="video"></iframe>
+                          </div> -->
+                          <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                   
+                                <div class="col-lg-6">
+                                    <p class="webapp-0-webapp176">
+                                        "&nbsp;I think the most important thing when you are learning to program is to have
+                                        people around you who believe in you...that is what was really important with my mentor
+                                        because he knew how to motivate me and believe in me. Because he knew what I was going
+                                        through because he had already been through it himself.&nbsp;"
+                                    </p>
+                                  </div>
+                                  <div class="col-lg-6"> <img src="IMG/debbie.avif" alt=""></div>
+                                </div>
+                             </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section_footer -->
+    <footer>
+        <p class="pt-5 mt-5 text-white fw-bold">*Subject to the conditions set out in the Terms of Service</p>
+        <hr style="border:2px solid gray;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg open">
+                    <li>OPENCLASSROOMS</li>
+                    <li>What we do</li>
+                    <li>Learning experience</li>
+                    <li>Blog</li>
+                </div>
+                <div class="col-lg open">
+                    <li>OPPORTUNITIES</li>
+                    <li>Work with Us</li>
+                    <li>Become a mentor</li>
+                    <li>become a career coach</li>
+                    <li class="pt-3">SUPPORT</li>
+                    <li class="pt-2"><h5>FAQ</h5></li>
+                </div> 
+                <div class="col-lg open">
+                    <li>FOR BUSINESS</li>
+                    <li>Upskilling, reskilling, and <br> apprenticeships</li>
+                    <li>MORE</li>
+                    <li>Store</li>
+                    <li>Legal information</li>
+                    <li class="pt-3">Terms of use</li>
+                    <li>Privacy policy</li>
+                    <li>Cookies</li>
+                    <li> Accessibility</li>
+                </div>
+                <!-- <div class="col-lg-9 d-flex">
+                    <ul>
+                        <li>OPENCLASSROOMS</li>
+                        <li>What we do</li>
+                        <li>Learning experience</li>
+                        <li>Blog</li>
+                    </ul>
+                     <ul>
+                        <li>OPPORTUNITIES</li>
+                        <li>Work with Us</li>
+                        <li>Become a mentor</li>
+                        <li>become a career coach</li>
+                        <li>SUPPORT</li>
+                        <li><h5>FAQ</h5></li>
+                    </ul>
+                    <ul>
+                        <li>FOR BUSINESS</li>
+                        <li>Upskilling, reskilling, and <br> apprenticeships</li>
+                        <li>MORE</li>
+                        <li>Store</li>
+                        <li>Legal information</li>
+                        <li>Terms of use</li>
+                        <li>Privacy policy</li>
+                        <li>Cookies</li>
+                        <li> Accessibility</li>
+                    </ul>
+                </div> -->
+                <div class="col-lg">
+                   <ul class="icons_foot pt-3">
+                    <li class="nav-item dropdown" id="dip">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </a>
+                        <ul class="dropd">
+                            <li class=" text-center">
+                               <p>country</p>
+                            </li>
+                            <li class=" text-center">
+                                <p>State</p>
+                             </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="icons_social mt-5">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </li>
+                    <li class="mt-5 ipad">
+                        <p><i class="fa-solid fa-cloud-arrow-down"></i><span class="small">Download on the</span> <br> <span class="fw-bold ms-4 ps-4">App Store</span></p>
+                    </li>
+                   </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#top" class="btn btn_bottom fixed-bottom"><i class="fa fa-angles-down"></i></a>
+
+
+    
+    <!-- <script src="boots/aos.js"></script> -->
+    <script src="Java/js.js"></script> 
+    <script src="boots/bootstrap.min.js"></script>
+</body>
+
+</html>
