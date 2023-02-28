@@ -361,6 +361,7 @@ background: orange;
     align-self: center;
     }
     .dropdowner{
+         display: flex;
         position: absolute;
         top: 3.18em;
         /* right: -1em; */
@@ -370,6 +371,9 @@ background: orange;
         height: 200px;
   transition: all 1.5s ease;
   z-index: -1;
+    }
+      #proof{
+        padding-left: 15px;
     }
     .dropdowner li{
         width: 300px;
